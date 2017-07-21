@@ -36,7 +36,7 @@
     {:id           "node"
      :source-paths ["src/server"]
      :compiler     {:output-to    "main.js"
-                    :output-dir   "out"
+                    :output-dir   "nodedev"
                     :main         learnexpressjs.core
                     :optimizations   :none
                     :target       :nodejs

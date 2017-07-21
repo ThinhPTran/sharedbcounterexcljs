@@ -1,0 +1,26 @@
+{
+  "name": "learnexpressjs",
+  "version": "1.0.0",
+  "description": "A [reagent](https://github.com/reagent-project/reagent) application designed to ... well, that part is up to you.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThinhPTran/sharedbcounterexcljs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThinhPTran/sharedbcounterexcljs/issues"
+  },
+  "homepage": "https://github.com/ThinhPTran/sharedbcounterexcljs#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "http": "0.0.0",
+    "sharedb": "^1.0.0-beta.7",
+    "websocket-json-stream": "0.0.3",
+    "ws": "^3.0.0"
+  }
+}
