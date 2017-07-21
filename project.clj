@@ -38,8 +38,9 @@
      :compiler     {:output-to    "main.js"
                     :output-dir   "out"
                     :main         learnexpressjs.core
-                    :optimizations   :advanced
+                    :optimizations   :none
                     :target       :nodejs
+                    :pretty-print true
                     :verbose      true}}
 
     {:id           "min"

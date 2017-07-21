@@ -3,7 +3,11 @@
 
 (nodejs/enable-util-print!)
 
-(defn -main [& args]
-  (.log js/console "Hello World!!!"))
+(def express (nodejs/require "express"))
+(def app (express))
+
+(defn -main
+  []
+  (.log js/console (str "express: " express)))
 
 (set! *main-cli-fn* -main)
